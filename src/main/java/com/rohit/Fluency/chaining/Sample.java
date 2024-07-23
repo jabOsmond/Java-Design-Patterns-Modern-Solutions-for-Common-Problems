@@ -7,6 +7,62 @@ class Mailer{
     public Mailer body(String body){System.out.println("body..."); return this;}
     public Mailer send(){System.out.println("send..."); return this;}
 }
+
+------->>>>>
+import java.util.Collection;
+import java.util.List;
+import static java.util.Arrays.asList;
+
+public class AVLTreeTest {
+    // Other parts of the class...
+
+    @Parameterized.Parameters
+    public static Collection<Object[]> data() {
+        return asList(new Object[][] {
+            // Test case 0: AVL Tree with nodes [30, 20, 10, 40, 50]
+            { 0, List.of(30, 20, 10, 40, 50) },
+            
+            // Test case 1: AVL Tree with nodes [10, 20, 30, 40, 50]
+            { 1, List.of(10, 20, 30, 40, 50) },
+            
+            // Test case 2: AVL Tree with nodes [50, 40, 30, 20, 10]
+            { 2, List.of(50, 40, 30, 20, 10) },
+            
+            // Test case 3: AVL Tree with nodes [10, 30, 20, 40, 50]
+            { 3, List.of(10, 30, 20, 40, 50) }
+        });
+    }
+}
+
+
+
+------->>>>>
+
+import java.util.Collection;
+import java.util.List;
+import static java.util.Arrays.asList;
+
+public class AVLTreeTest {
+    // Other parts of the class...
+
+    @Parameterized.Parameters
+    public static Collection<Object[]> data() {
+        return asList(new Object[][] {
+            // Test case 0: AVL Tree with nodes [30, 20, 10, 40, 50]
+            { 0, List.of(30, 20, 10, 40, 50) },
+            
+            // Test case 1: AVL Tree with nodes [10, 20, 30, 40, 50]
+            { 1, List.of(10, 20, 30, 40, 50) },
+            
+            // Test case 2: AVL Tree with nodes [50, 40, 30, 20, 10]
+            { 2, List.of(50, 40, 30, 20, 10) },
+            
+            // Test case 3: AVL Tree with nodes [10, 30, 20, 40, 50]
+            { 3, List.of(10, 30, 20, 40, 50) }
+        });
+    }
+}
+------->>>>>
 public class Sample {
     public static void main(String[] args) {
     new Mailer()
